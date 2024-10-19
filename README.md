@@ -8,7 +8,7 @@
 
 <img alt="https://www.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_4102879.htm#query=developer&position=0&from_view=keyword&track=sph&uuid=9a3a75b6-4347-40a4-a1a5-0ed25a08a52f" align="right" widht="100px" height="310px"  src="971.png">
 
-<p align="justify">Computer science student, in the first semester, available for hiring, I am looking for new learning and new jobs, I have knowledge of HTML, CSS, JAVASCRIPT, and I am looking to learn more and more. 
+<p align="justify">Computer science student, in the 2° semester, available for hiring, I am looking for new learning and new jobs, I have knowledge of PYTHON, HTML, CSS, JAVASCRIPT, and I am looking to learn more and more. 
 </p>
 
 
