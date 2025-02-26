@@ -7,10 +7,10 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Jetbrains+Mono&size=35&pause=1000&color=4C33FF&random=false&width=500&height=100&lines=Welcome+to+my+profile!%F0%9F%98%81" alt="Welcome" />
 </a>
 
-<img align="right" width="100px" height="310px" src="971.png" alt="Developer illustration">
+<img align="right" height="310px" style="max-width: 100%; height: auto;" src="971.png" alt="Developer illustration">
 
 <p align="justify">
-    Computer Science student (3rd semester), available for hiring. I'm eager to learn and grow professionally. I have experience with Python, HTML, CSS, and JavaScript, and I’m always looking to expand my knowledge.
+    Computer Science student (3rd semester), available for hiring. I'm eager to learn and grow professionally. I have experience with Python, Django, HTML, CSS, and JavaScript, and I’m always looking to expand my knowledge.
 </p>
 
 <h3 align="left">Connect with me</h3>
