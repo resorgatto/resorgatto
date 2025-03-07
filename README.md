@@ -10,7 +10,7 @@
 <img align="right" height="310px" style="max-width: 100%; height: auto;" src="971.png" alt="Developer illustration">
 
 <p align="justify">
-    Computer Science student (3rd semester), available for hiring. I'm eager to learn and grow professionally. I have experience with Python, Django, HTML, CSS, and JavaScript, and I’m always looking to expand my knowledge.
+    Computer Science student (3rd semester), available for hiring. I'm eager to learn and grow professionally. I have experience with Python, Django, RestFramework, HTML, CSS, and JavaScript, and I’m always looking to expand my knowledge.
 </p>
 
 <h3 align="left">Connect with me</h3>
