@@ -20,7 +20,7 @@
 
 <h3 align="left">GitHub Stats</h3>
 
-![resorgatto's Stats](https://github-readme-stats.vercel.app/api?username=resorgatto&theme=tokyonight&show_icons=true&hide_border=true&count_private=)
+![resorgatto's Stats](https://github-readme-stats.vercel.app/api?username=resorgatto&theme=tokyonight&show_icons=true&hide_border=true&count)
 
 ![resorgatto's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=resorgatto&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&langs_count=30)
 <br>
