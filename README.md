@@ -22,7 +22,7 @@
 
 ![resorgatto's Stats](https://github-readme-stats.vercel.app/api?username=resorgatto&theme=tokyonight&show_icons=true&hide_border=true)
 
-![resorgatto's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=resorgatto&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&langs_count=20)
+![resorgatto's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=resorgatto&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&langs_count=10)
 <br>
 
 <details align="left">
