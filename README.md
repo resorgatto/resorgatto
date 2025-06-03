@@ -1,36 +1,64 @@
-<h1>
-    <a href="https://github.com/resorgatto">🔗</a> 
-    <span>Renato Sorgatto</span>
-</h1>
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW5qY2V6eGZ1bG1rOGN4Z3B5Y2V6ZzR4YnJ5dGJ6eHZqZGNiYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LMcB8XospGZO8UQq87/giphy.gif" width="150">
+  
+  <h1 align="center">
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=22D3EE&center=true&vCenter=true&width=500&lines=Hello%2C+I'm+Renato+Sorgatto;Backend+Developer;CS+Student;Systems+Architecture+Enthusiast" alt="Typing SVG" />
+    </a>
+  </h1>
+</div>
 
-<a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Jetbrains+Mono&size=35&pause=1000&color=4C33FF&random=false&width=500&height=100&lines=Welcome+to+my+profile!%F0%9F%98%81" alt="Welcome" />
-</a>
+---
 
-<img align="right" height="310px" style="max-width: 100%; height: auto;" src="971.png" alt="Developer illustration">
+### 🧑‍💻 About Me
 
-<p align="justify">
-    Computer Science student (3rd semester), available for hiring. I'm eager to learn and grow professionally. I have experience with Java, Python, Django, RestFramework, HTML, CSS, and JavaScript, and I’m always looking to expand my knowledge.
-</p>
+```python
+class BackendDeveloper:
+    def __init__(self):
+        self.name = "Renato Sorgatto"
+        self.role = "Backend Developer | CS Student"
+        self.focus = ["System Design", "API Development", "Cloud Architecture"]
+        self.current_learning = ["Kubernetes", "Event-Driven Architecture"]
+    
+    def __str__(self):
+        return f"Passionate about building scalable and maintainable backend systems"
 
-<h3 align="left">Connect with me</h3>
+me = BackendDeveloper()
+print(me)
+```
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/renato-sorgatto/)
-[![GitHub](https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/resorgatto)
+---
 
-<h3 align="left">GitHub Stats</h3>
+### 🛠️ Technical Toolkit
 
-![resorgatto's Stats](https://github-readme-stats.vercel.app/api?username=resorgatto&theme=tokyonight&show_icons=true&hide_border=true)
+**Backend Stack**  
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-ED8B00?logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/-Spring-6DB33F?logo=spring&logoColor=white)
 
-![resorgatto's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=resorgatto&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&langs_count=40)
-<br>
+**Data & Cloud**  
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
 
-<details align="left">
-  <summary>Credits & Resources</summary> 
- 
-  - Badges by <a href="https://shields.io/">shields.io</a><br>
-  - GitHub Stats by <a href="https://github.com/anuraghazra/github-readme-stats">anuraghazra</a><br>
-  - Developer vector by <a href="https://www.freepik.com/vectors/developer">storyset - www.freepik.com</a> (edited by author)
- 
-  <div align="right">Made by <a href="https://github.com/resorgatto">resorgatto</a>.</div>
-</details>
+---
+
+### 📈 Current Focus
+
+```text
+🌱 Growing in: 
+  ▰▰▰▰▰▰▰▰▱▱ Microservices Patterns
+  ▰▰▰▰▰▰▱▱▱▱ Cloud-Native Applications
+  ▰▰▰▰▱▱▱▱▱▱ Distributed Systems
+```
+
+---
+
+### 📫 How to Reach Me
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/renato-sorgatto/)
+[![Gmail](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white)](mailto:renatosorgatto@gmail.com)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/resorgatto)
