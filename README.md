@@ -37,3 +37,4 @@ Engenheiro de Software Backend com foco em construir sistemas escaláveis e segu
     <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
   </a>
 </p>
+
