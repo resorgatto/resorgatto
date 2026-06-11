@@ -71,7 +71,7 @@ Backend-focused fullstack engineer at Carvion, where I build Orquestra360: a mod
 
 ## Featured Work
 
-Orquestra360 is the hub. The other products are modules that plug into its SSO, credit wallet and internal APIs.
+Orquestra360 is the hub: most of these plug into its SSO, credit wallet and internal APIs. A couple stand on their own.
 
 | Project | What it is | Stack |
 | :--- | :--- | :--- |
@@ -80,6 +80,7 @@ Orquestra360 is the hub. The other products are modules that plug into its SSO, 
 | Assessments360 | 360° assessments, DISC, PDI and career/competency management | `Django` `Next.js` `Recharts` |
 | Learning360 | Gamified LMS: learning paths, courses, certificates and forums | `Django` `Next.js` `Tailwind` |
 | [Fala T&D](https://falatd.bravend.com.br) | Offline-first live-audience PWA: QR check-in, ICP scoring, CRM webhooks | `FastAPI` `Next.js` `IndexedDB` |
+| Vinvolve | Standalone course and membership hub with auth and transactional email, outside the 360 stack | `React` `Vite` `Express` `Drizzle` |
 
 Also LAB.AIx: an AI kiosk that turns a recorded voice diagnosis into an ADDIE learning blueprint with Whisper and Claude Sonnet.
 
