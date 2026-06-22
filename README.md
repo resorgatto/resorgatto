@@ -84,14 +84,6 @@ Orquestra360 is the hub: most of these plug into its SSO, credit wallet and inte
 
 Also LAB.AIx: an AI kiosk that turns a recorded voice diagnosis into an ADDIE learning blueprint with Whisper and Claude Sonnet.
 
----
-
-## Activity
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=resorgatto&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
-
 </div>
 
 <sub>12k+ contributions in the last year, most of them in private repositories.</sub>
