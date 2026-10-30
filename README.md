@@ -2,13 +2,13 @@
 
 # Renato Sorgatto
 
-**Backend-focused Fullstack Engineer**
+**Backend Engineer**
 
-Multi-tenant SaaS · LLMs in production · Django · FastAPI · Next.js
+Backends built to hold up in production. Multi-tenant SaaS, auth, async pipelines. Security enthusiast.
 
+<a href="https://www.sorgatto.dev"><img src="https://img.shields.io/badge/sorgatto.dev-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/renato-sorgatto/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:renatosorgatto@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<img src="https://img.shields.io/badge/Brazil-009C3B?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Brazil" />
 
 </div>
 
@@ -16,96 +16,72 @@ Multi-tenant SaaS · LLMs in production · Django · FastAPI · Next.js
 
 ## About
 
-Backend-focused fullstack engineer at Carvion, where I build Orquestra360: a modular, multi-tenant SaaS platform whose products (under the Bravend brand) share a single auth, billing and tenancy core. I'm strongest on the server side: REST APIs, schema-per-tenant data isolation, async pipelines and LLMs in production. I build the React frontend too.
+Backend engineer at Carvion, building Orquestra360 and the products that run on it. Orquestra360 is a multi-tenant platform: one auth, billing and tenancy core shared by every product under the Bravend brand. My work is the server side of it: schema-per-tenant isolation on PostgreSQL, SSO with RS256 JWTs, Celery pipelines and LLM features that run for real users. I build the Next.js frontend too.
 
-- 🏗️ **Backend & architecture:** Django/DRF and FastAPI, schema-per-tenant multi-tenancy, SSO with JWT RS256, credit/billing engines
-- 🗄️ **Data & async:** PostgreSQL data modeling, Redis, Celery task pipelines, object storage (S3/MinIO/R2)
-- 🤖 **Applied AI:** OpenAI and Anthropic in production (hybrid AI scoring, Whisper voice, automated report generation)
-- 🐧 **Systems:** at home on Linux (Fedora on desktop, Linux servers in production), Docker and CI/CD on GitHub Actions
-- 🎨 **Frontend:** Next.js, React and Radix/shadcn design systems
+I am a security enthusiast, and it shows in how I design an API. What I study and practice most now is system design: capacity, failure modes, idempotency, backpressure. The things that decide whether a system survives growth.
 
----
+## How I work
 
-## Tech Stack
+- **Design for the failure first.** Before the happy path, I write down what happens when the queue backs up, the pool runs dry or a webhook arrives twice. Idempotency keys, timeouts and retries with backoff go into the design, not into a hotfix.
+- **Isolation by construction.** Schema per tenant on PostgreSQL. A cross-tenant leak is impossible by construction, not by code review.
+- **Security as the default.** RS256 tokens, secrets encrypted at rest, least privilege on every integration, secret scanning in CI. I read my own APIs the way an attacker would.
+- **Async by default.** Heavy work goes to Celery and queues. The request stays fast, and a slow third party cannot take the API down with it.
 
-**Backend**
+## Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/Django_REST-A30000?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
+| Layer | Tools |
+| :--- | :--- |
+| Backend | Python, Django, DRF, Django Ninja, FastAPI, Celery, Node.js |
+| Data | PostgreSQL, Redis, Prisma, SQLAlchemy, MinIO / S3 |
+| AI | OpenAI, Anthropic, Whisper, with a cost and latency budget |
+| DevOps | Linux, Docker, GitHub Actions, Vultr, Vercel, Sentry |
+| Frontend | TypeScript, React, Next.js |
 
-**Data & Databases**
+## Work
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-![MinIO](https://img.shields.io/badge/MinIO_S3-C72E49?style=for-the-badge&logo=minio&logoColor=white)
+Day job: the Orquestra360 ecosystem at Carvion. Beyond it: products of my own and open source. Case studies for all of them at [sorgatto.dev](https://www.sorgatto.dev).
 
-**AI & LLMs**
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Whisper](https://img.shields.io/badge/Whisper-74AA9C?style=for-the-badge&logo=openai&logoColor=white)
-
-**DevOps & Cloud**
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
-
-**Frontend**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
----
-
-## Featured Work
-
-Orquestra360 is the hub: most of these plug into its SSO, credit wallet and internal APIs. A couple stand on their own.
+**Orquestra360 ecosystem (Carvion)**
 
 | Project | What it is | Stack |
 | :--- | :--- | :--- |
-| [Orquestra360](https://orquestra360.com.br) | Hub platform: SSO (JWT RS256), schema-per-tenant multi-tenancy, white-label, cross-module credit wallet | `Django` `Next.js` `PostgreSQL` `Redis` |
-| Siv360 | AI sales simulator with hybrid AI + human scoring (GPT-4o-mini) and live voice input via Whisper | `Django` `OpenAI` `Celery` |
-| Assessments360 | 360° assessments, DISC, PDI and career/competency management | `Django` `Next.js` `Recharts` |
-| Learning360 | Gamified LMS: learning paths, courses, certificates and forums | `Django` `Next.js` `Tailwind` |
-| [Fala T&D](https://falatd.bravend.com.br) | Offline-first live-audience PWA: QR check-in, ICP scoring, CRM webhooks | `FastAPI` `Next.js` `IndexedDB` |
-| Vinvolve | Standalone course and membership hub with auth and transactional email, outside the 360 stack | `React` `Vite` `Express` `Drizzle` |
+| [Orquestra360](https://orquestra360.com.br) | The hub: SSO (JWT RS256), schema-per-tenant multi-tenancy, white-label branding and a central credit wallet shared by every product | Django, DRF, Next.js, PostgreSQL, Redis |
+| Siv360 | AI sales simulator: hybrid AI plus human scoring, spoken answers transcribed live with Whisper | Django, OpenAI, Whisper, Celery |
+| Assessments360 | 360 assessments, DISC, PDI and competency management, with reports per person and per team | Django, Next.js, Recharts |
+| Learning360 | Gamified LMS: learning paths, courses, certificates and forums | Django, Next.js |
+| [Fala T&D](https://falatd.bravend.com.br) | Offline-first PWA for live events: QR check-in without signal, ICP scoring, CRM webhooks with retry | FastAPI, Next.js, IndexedDB |
+| LAB.AIx | Touchscreen kiosk that turns a recorded voice diagnosis into an ADDIE learning blueprint | Next.js, Prisma, Claude, Whisper |
+| Vinvolve | Standalone course and membership hub with auth and transactional email | React, Vite, Express, Drizzle |
 
-Also LAB.AIx: an AI kiosk that turns a recorded voice diagnosis into an ADDIE learning blueprint with Whisper and Claude Sonnet.
+**Own products and open source**
 
-</div>
-
-<sub>12k+ contributions in the last year, most of them in private repositories.</sub>
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| SEAM | Webhook integration hub: per-workflow ingest URLs that answer 202 at once, Celery delivery with exponential backoff and a dead-letter queue, tenant-isolated workspaces, credentials encrypted with Fernet. First module of SGT Systems | Django, Django Ninja, Celery, PostgreSQL, Redis |
+| Hub4Makers | Real margin per piece for people who sell 3D prints on marketplaces: filament, energy by state tariff, packaging, failed prints and fees in one place | Django, Next.js, PostgreSQL, Redis |
+| [Chariot](https://github.com/resorgatto/Chariot) | Open-source fleet and delivery management: coverage areas validated on PostGIS, Celery notifications, React PWA with Leaflet maps and push. MIT | Django, DRF, PostGIS, Celery, React |
+| [SmartPortfolio](https://github.com/resorgatto/SmartPortfolio) | Scheduled stock purchases: consolidates monthly orders, splits standard and fractional lots, keeps average price and withholding tax per client. Clean Architecture, Kafka events, B3 COTAHIST parser | C#, .NET 8, MySQL, Kafka |
 
 ---
-
-## Get in touch
-
-<a href="https://www.linkedin.com/in/renato-sorgatto/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:renatosorgatto@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 <details>
 <summary>Versão em português</summary>
 
 <br/>
 
-Engenheiro fullstack com foco em backend na Carvion, onde construo o Orquestra360: uma plataforma SaaS multi-tenant e modular cujos produtos (sob a marca Bravend) compartilham um núcleo único de autenticação, cobrança e tenancy. Sou mais forte no lado do servidor: APIs REST, isolamento de dados schema-per-tenant, pipelines assíncronos e IA em produção. Também faço o frontend em React.
+**Engenheiro Backend.** Backends feitos para aguentar a produção. SaaS multi-tenant, autenticação, pipelines assíncronos. Entusiasta de segurança.
 
-- 🏗️ **Backend e arquitetura:** Django/DRF e FastAPI, multi-tenancy schema-per-tenant, SSO com JWT RS256, motores de créditos e cobrança
-- 🗄️ **Dados e async:** modelagem em PostgreSQL, Redis, filas com Celery, object storage (S3/MinIO/R2)
-- 🤖 **IA aplicada:** OpenAI e Anthropic em produção (scoring híbrido, voz com Whisper, geração automática de relatórios)
-- 🐧 **Sistemas:** Linux no dia a dia (Fedora no desktop, servidores Linux em produção), Docker e CI/CD no GitHub Actions
-- 🎨 **Frontend:** Next.js, React e design systems com Radix/shadcn
+Engenheiro backend na Carvion, onde construo o Orquestra360 e os produtos que rodam sobre ele. O Orquestra360 é uma plataforma multi-tenant: um núcleo único de autenticação, cobrança e tenancy compartilhado por todos os produtos da marca Bravend. Meu trabalho é o lado do servidor: isolamento schema-per-tenant no PostgreSQL, SSO com JWT RS256, pipelines em Celery e funcionalidades com LLM rodando para usuários reais. Também faço o frontend em Next.js.
+
+Sou entusiasta de segurança, e isso aparece na forma como desenho uma API. O que mais estudo e pratico hoje é system design: capacidade, modos de falha, idempotência, backpressure. As coisas que decidem se um sistema sobrevive ao crescimento.
+
+**Como eu trabalho**
+
+- **Projetar a falha primeiro.** Antes do caminho feliz, escrevo o que acontece quando a fila enche, o pool esgota ou um webhook chega duas vezes. Chaves de idempotência, timeouts e retry com backoff entram no desenho, não no hotfix.
+- **Isolamento por construção.** Schema por tenant no PostgreSQL. Um vazamento entre tenants é impossível por construção, não por code review.
+- **Segurança como padrão.** Tokens RS256, segredos criptografados em repouso, privilégio mínimo em cada integração, secret scanning no CI. Leio minhas próprias APIs como um atacante leria.
+- **Assíncrono por padrão.** Trabalho pesado vai para Celery e filas. A requisição continua rápida, e um terceiro lento não derruba a API junto.
+
+Os cases de todos os projetos estão em [sorgatto.dev](https://www.sorgatto.dev/pt).
 
 </details>
